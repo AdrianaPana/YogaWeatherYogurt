@@ -32,6 +32,10 @@ p {
   line-height: 1.5;
 }
 
+.content {
+  padding: 70px 0 20px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -40,6 +44,16 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
 }
 
 .secondary-link {
@@ -75,16 +89,6 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {
